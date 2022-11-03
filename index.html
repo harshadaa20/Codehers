@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1;minimum-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+  <title>Fitsure</title>
+  </head>
+  <body>
+    
+  <!--nav bar start-->
+  <nav>
+    <div class="wrap">
+        <div class="left">
+        <div class="logo">
+            <img src="logo2.jpg" width="100"height="100">
+           
+        </div>
+        <div class="title">
+            
+        </div>
+        </div>
+        <div class="right">
+            <div class="home"><a href="#fhome">
+                <i class="fa-solid fa-house-chimney"></i>  
+                <h6>Home</h6>
+                </a>
+            </div>
+            <div class="Exercise"><a href="#exercise">
+                <i class="fa-solid fa-dumbbell"></i>
+                <h6>Exercise</h6>
+                </a>
+            </div>
+            <div class="Articles"><a href="#art">
+                <i class="fa-solid fa-newspaper"></i>
+                <h6>Articles</h6>
+            </a>
+            </div>
+            <div class="Appointment"><a href="#connect">
+                <i class="fa-solid fa-calendar-check"></i>
+                <h6>Appointment</h6>
+            </a>
+            </div> 
+            <div class="Remainder"><a href="#remind">
+                <i class="fa-solid fa-bell"></i>
+                    <h6>Set Remainder</h6>
+            </a> 
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--nav bar end-->
+<!--main content-->
+
+    <section id="fhome">
+        <p>
+           <h1> Welcome to <strong>Fitsure!!</strong></h1>
+           <h3>We fitsure help you to be tension free and healthy!</h3><br>
+            An website for you ,to make you healthy ,happy ,fit.<br>
+            As said health is wealth.</h3>
+        </p>
+        <div class="right">
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/Cg_GW7yhq20/AKCY S9RX Y655">
+          </iframe>
+        </div>
+    </section>
+
+    <section id="exercise">
+        <div class="container">
+        <h1>Let's start with Exercise</h1>
+        <h3>Exercise everyday helps you to stay fit ! And make your lifestyle better so click here to get exercise videos and do exercise at home.</h3>
+        <div class="exercise">
+            <div class="beginner">
+                <img src="begexe.jpg" alt="beginner exercise">
+                <h5>Beginner level</h5>
+                <button class="button"><a href="https://www.healthline.com/health/fitness-exercise/at-home-workouts#beginner-routine">Start</a></button>
+            </div>
+            <div class="Intermediate">
+                <img src="intermediate2.webp" alt="intermediate">
+                <h5>Intermediate level</h5>
+                <button class="button"><a href="http://www.bristol.ac.uk/sport/get-exercise-confident/intermediate-workout/">Start</a></button>
+            </div>
+            <div class="Advanced">
+                <img src="advanced.jpg" alt="advanced">
+                <h5>Advanced level</h5>
+                <button  class="button"><a href="https://www.health.harvard.edu/staying-healthy/exercising-to-relax">Start</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <h1>Listen some music to relax your mind</h1>
+        <div class="music">
+            <img src="music.jpg" alt="music">
+            <button class="button"><embed src="https://open.spotify.com/playlist/37i9dQZF1DX9uKNf5jGX6m?si=Yl1Xwc7gSsiD1aT_Qc-qLg&utm_source=whatsapp"loop="true"autostart="true"width="2"height="0">Listen</button>
+        </div>
+    </div>
+    </section>
+    <section id="remind">
+        <h1>Remind Yourself</h1>
+        <h4>Track you health parameters smoothly. Put in the info and we will remind you so you don't miss your water and medicine intake.</h4>
+        <h1>Drink Water</h1>
+    <h2>Goal: 2 liters</h2>
+    <div class="cup">
+      <div class="remained" id="remained">
+        <span id="liters"></span>
+        <small>Remained</small>
+      </div>
+      <div class="percentage" id="percentage"></div>
+    </div>
+    <p class="text">Select how many glasses of water that you have drank</p>
+    <div class="cups">
+      <div class="cup cup-small">250 ml</div>
+      <div class="cup cup-small">250 ml</div>
+      <div class="cup cup-small">250 ml</div>
+      <div class="cup cup-small">250 ml</div>
+      <div class="cup cup-small">250 ml</div>
+      <div class="cup cup-small">250 ml</div>
+      <div class="cup cup-small">250 ml</div>
+      <div class="cup cup-small">250 ml</div>
+    </div>
+    
+    </section>
+    <section id="art">
+        <h1>Lets read some Articles</h1>
+        <h5>Get your health articles here ,click below to read health articles by doctors and specialist in the field to know how keep your health at check !</h5>
+        <div class="write">
+            <div class="first">
+                <img src="fit.jpg" width="200"height="200">
+                <h4>Finally Gettinng In shape</h4>
+                <a href="#" class="button"><a href="https://kokumura.medium.com/getting-in-shape-the-easy-way-the-japanese-rule-to-a-healthy-diet-371ce0bf3cb6" target="blank">Read More</a><span class="fas fa-chevron-right"></span></a>
+            </div>
+            <div class="second">
+                <img src="second.jpg" width="200"height="200">
+                <h4>3 Habits of Incredibly Healthy People</h4>
+                <a href="#" class="button"><a href="https://medium.com/in-fitness-and-in-health/3-habits-of-incredibly-healthy-people-e3bc5ffb4b00" target="blank">Read More<span class="fas fa-chevron-right"></span></a></a>
+            </div>
+            <div class="third">
+               <img src="mental.webp"width="200"height="200">
+               <h4>Meditation Exercise</h4>      
+               <a href="#" class="button"><a href="https://betterhumans.pub/this-meditation-exercise-builds-mental-muscle-and-cures-procrastination-2f15faade9f3" target="blank">Read More</a><span class="fas fa-chevron-right"></span></a>      
+            </div>
+        </div>
+    </section>
+
+    <section id="connect">
+        <h1>Lets connect to Doctors</h1>
+        <h5>
+            Get quick doctors appointment , and see doctors ,medical and hospital near you .
+        </h5>
+        
+            <form action="config.php"method="post">
+                <fieldset>
+                  <label for="first-name">Enter Your First Name: <input id="firstname" name="firstname" type="text" required /></label>
+                  <label for="last-name">Enter Your Last Name: <input id="lastname" name="lastname" type="text" required /></label>
+                  <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
+                  <label for="Phone-No.">Enter Contact Number: <input id="number" name="number" type="number" required /></label>
+                  <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
+                  <label for="Location">Location
+                    <select id="Location" name="Location">
+                      <option value="">(select one)</option>
+                      <option value="1">Maharashtra</option>
+                      <option value="2">Gujrat</option>
+                      <option value="3">Punjab</option>
+                      <option value="4">Kerala</option>
+                      <option value="5">Other</option>
+                    </select>
+                  </label>
+                  <label for="bio">How we can help you?
+                    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I want Appointment of heart doctor"></textarea>
+                  </label>
+                </fieldset>
+                <input class="button1" type="submit" value="Make Appointment" />
+              </form>
+        </form>
+    </section>
+    <footer class="footer-main bg-dark fixed-bottom">
+        <div class="container">
+            <div class="row address-main">
+                <div class="col-lg-4 col-sm-12 col-xs-12">
+                    <div class="address-box clearfix">
+                        <div class="add-content">
+                            <h3>Contact Us</h3>
+                            <ul>
+                                <li><i class="fa-regular fa-envelope"></i>harshada.jagade@gmail.com</li>
+                                <li><i class="fa-brands fa-linkedin"></i>Linkedin</li>
+                                <li><i class="fa-brands fa-twitter"></i></i>Twitter</li>
+                            </ul>
+                           <p>© Copyright 2015-2022 Exandus, LLC. . All Rights Reserved.</P> 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+   <script src="script.js"></script>
+  </body>
+</html>
